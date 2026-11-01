@@ -21,6 +21,7 @@ Understand the foundational concepts behind AWS architecture before comparing in
 
 ## Further reading
 
+- [AWS Global Infrastructure: DC, AZ, Local Zones, Wavelength, WAF](global-infrastructure.md)
 - [Shared responsibility and security boundaries](shared-responsibility.md)
 - [AWS CLI: inspect identity and Regions](aws-cli-basics.md)
 

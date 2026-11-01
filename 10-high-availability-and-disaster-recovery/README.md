@@ -11,6 +11,6 @@ Resilience is designed around failure modes and business objectives—not a blan
 - **Warm standby:** Maintain a reduced but working environment and scale up during recovery.
 - **Multi-site active/active:** Serve traffic from multiple sites; highest complexity and often cost.
 
-Multi-AZ handles some AZ failures, but it does not replace backups or regional recovery. Replication is not backup: bad writes/deletions can replicate. Test failover and restore procedures, including DNS and dependencies.
+Use AWS Backup plans to centrally define backup selections, schedules, lifecycle, and retention for supported resources. Multi-AZ handles some AZ failures, but it does not replace backups or regional recovery. Replication is not backup: bad writes/deletions can replicate. Test failover and restore procedures, including DNS and dependencies.
 
 Read [recovery strategy comparison](recovery-strategies.md) and inspect the [regional recovery diagram](../13-architecture-diagrams/regional-recovery.md).

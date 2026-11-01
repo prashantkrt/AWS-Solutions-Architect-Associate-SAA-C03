@@ -19,3 +19,11 @@ See [S3 storage classes and protection](s3-storage-classes.md) and [block, file,
 ## Cost and recovery
 
 Account for stored bytes, requests, retrieval, transfer, and replication. EBS snapshots are incremental backups, not a substitute for application-consistent recovery planning. Test restores rather than assuming a backup is usable.
+
+## Data migration
+
+Choose a migration path based on data volume, available bandwidth, transfer cadence, and whether the workload must remain online:
+
+- **AWS DataSync** automates online data movement for supported storage locations.
+- **AWS Snow Family** devices support offline transfer when network transfer is impractical.
+- **AWS Storage Gateway** connects on-premises environments to selected AWS storage models; it is a hybrid-storage service rather than a general-purpose bulk migration tool.

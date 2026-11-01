@@ -17,5 +17,6 @@ Select databases by data model, consistency, query patterns, scale, and operatio
 - DynamoDB access patterns should drive key design; a relational schema cannot simply be copied without considering partition distribution.
 - A cache is not the system of record. Plan for misses, eviction, stale values, and cache failure.
 - Backups, point-in-time recovery, encryption, and maintenance windows differ by service and configuration.
+- **AWS Database Migration Service (AWS DMS)** supports database migration and replication; assess source/target compatibility, conversion needs, and cutover planning.
 
 Read [relational vs. NoSQL](relational-vs-nosql.md) and [RDS, Aurora, and DynamoDB](database-selection.md).

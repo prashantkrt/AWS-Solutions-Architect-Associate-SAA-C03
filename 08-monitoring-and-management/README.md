@@ -13,4 +13,6 @@ Observability and governance help detect faults, understand changes, and operate
 
 CloudWatch answers “what is the system doing?”; CloudTrail helps answer “which API action occurred, by whom, and when?” Configure retention and access intentionally; logs and metrics can incur charges.
 
+CloudWatch alarms evaluate metrics and can notify or trigger actions. Combine alarms with load balancer health checks and EC2 Auto Scaling policies to detect unhealthy capacity and adjust the fleet; scaling policies should follow workload signals and account for startup time.
+
 Read [monitoring and audit signals](monitoring-and-audit.md). For CLI-only observation, use the commands in [cloud fundamentals](../01-cloud-fundamentals/aws-cli-basics.md).

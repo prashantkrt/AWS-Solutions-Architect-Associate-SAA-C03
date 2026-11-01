@@ -6,6 +6,7 @@ Decouple components so that variable workloads and temporary failures do not for
 |---|---|---|
 | Amazon SQS | Queue | Consumers poll; messages remain until deleted or expire |
 | Amazon SNS | Pub/sub notifications | Pushes a message to subscribed endpoints; can fan out to queues |
+| Amazon Kinesis | Streaming data | Ingests and processes ordered streams of real-time data; choose a Kinesis service based on the streaming use case |
 | Amazon EventBridge | Event bus and rules | Routes events based on event content and source |
 | AWS Step Functions | Workflow orchestration | Coordinates steps, retries, branching, and state |
 | Amazon API Gateway | Managed API front door | Authentication, throttling, and API integrations |

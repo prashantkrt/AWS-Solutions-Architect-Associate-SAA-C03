@@ -1,69 +1,63 @@
-# AWS Solutions Architect – Associate (SAA-C03)
+# AWS Certified Solutions Architect – Associate (SAA-C03)
 
-A structured learning repository dedicated to preparing for the **AWS Certified Solutions Architect – Associate (SAA-C03)** certification.
+A structured, practical study guide for designing secure, resilient, high-performing, and cost-aware solutions on AWS. This repository follows the SAA-C03 exam domains and favors service-selection decisions over memorizing product lists.
 
-This repository documents my AWS learning journey through practical hands-on labs, detailed service explanations, architecture diagrams, real-world scenarios, and exam-oriented practice questions.
+## Learning roadmap
 
-## 🎯 Learning Objectives
+| # | Topic | What to learn |
+|---|---|---|
+| 01 | [Cloud fundamentals](01-cloud-fundamentals/README.md) | AWS infrastructure, cloud economics, and the Well-Architected Framework |
+| 02 | [IAM and security](02-iam-and-security/README.md) | Identity, permissions, encryption, and layered security |
+| 03 | [Compute services](03-compute-services/README.md) | EC2, scaling, containers, and compute selection |
+| 04 | [Storage services](04-storage-services/README.md) | Object, block, file, and hybrid storage |
+| 05 | [Database services](05-database-services/README.md) | Relational, NoSQL, caching, and analytics data stores |
+| 06 | [Networking and content delivery](06-networking-and-content-delivery/README.md) | VPC, routing, load balancing, DNS, and edge delivery |
+| 07 | [Application integration](07-application-integration/README.md) | Queues, notifications, events, and workflow orchestration |
+| 08 | [Monitoring and management](08-monitoring-and-management/README.md) | Metrics, logs, audit trails, governance, and operations |
+| 09 | [Serverless architecture](09-serverless-architecture/README.md) | Event-driven solutions with managed services |
+| 10 | [High availability and disaster recovery](10-high-availability-and-disaster-recovery/README.md) | Resilience patterns, backups, and recovery objectives |
+| 11 | [Cost optimization](11-cost-optimization/README.md) | Pricing models, rightsizing, and cost governance |
+| 12 | [Hands-on labs](12-hands-on-labs/README.md) | Guided, non-deploying exercises and safe console walkthroughs |
+| 13 | [Architecture diagrams](13-architecture-diagrams/README.md) | Mermaid reference designs and decision flows |
+| 14 | [Practice questions](14-practice-questions/README.md) | Original scenario questions with answer reasoning |
+| 15 | [Exam revision](15-exam-revision/README.md) | Comparison tables, checklists, and a final review plan |
 
-- Understand AWS core services and cloud architecture.
-- Design highly available, scalable, and fault-tolerant systems.
-- Implement secure and cost-effective AWS solutions.
-- Gain practical experience through hands-on labs.
-- Understand real-world architecture patterns and design trade-offs.
-- Prepare for the AWS SAA-C03 certification exam.
+### Suggested study sequence
 
-## 📚 Topics Covered
+Start with cloud fundamentals, then study security alongside each service domain. Cover compute, storage, databases, networking, integration, and monitoring before moving to serverless and architecture trade-offs. Use the labs to reinforce decisions, then practice explaining why the distractor services do not fit. Finish with the revision sheets and timed question sets.
 
-| Domain | Key Services |
-|---|---|
-| Cloud Fundamentals | AWS Global Infrastructure, Shared Responsibility |
-| Security | IAM, KMS, Secrets Manager |
-| Compute | EC2, Lambda, ECS, EKS |
-| Storage | S3, EBS, EFS |
-| Databases | RDS, Aurora, DynamoDB, ElastiCache |
-| Networking | VPC, Route 53, ELB, CloudFront |
-| Application Integration | SQS, SNS, EventBridge |
-| Monitoring | CloudWatch, CloudTrail |
-| Architecture | High Availability, Disaster Recovery, Cost Optimization |
+## Exam domains
 
-## 🛠️ Hands-on Projects
+The SAA-C03 blueprint groups questions into four domains: Design Secure Architectures, Design Resilient Architectures, Design High-Performing Architectures, and Design Cost-Optimized Architectures. See [exam-domain mapping](15-exam-revision/exam-domain-map.md) for a study crosswalk. Verify current exam details with the [official AWS certification page](https://aws.amazon.com/certification/certified-solutions-architect-associate/).
 
-- Deploy applications using Amazon EC2.
-- Host static websites using Amazon S3.
-- Build custom VPC networking architectures.
-- Configure RDS databases and connectivity.
-- Develop serverless applications using AWS Lambda.
-- Implement scalable and highly available architectures.
+## Progress tracker
 
-## 📖 Repository Structure
+Mark a section complete only after you can explain its key choices without relying on notes.
 
-- `01-cloud-fundamentals` – AWS basics and cloud concepts.
-- `02-iam-and-security` – Identity and access management.
-- `03-compute-services` – AWS compute services.
-- `04-storage-services` – AWS storage solutions.
-- `05-databases` – AWS database services.
-- `06-networking` – Networking and connectivity.
-- `07-application-integration` – Messaging and event-driven architecture.
-- `08-monitoring-and-management` – Monitoring and operational tools.
-- `09-architecture-patterns` – AWS architecture best practices.
-- `10-hands-on-labs` – Practical implementations.
-- `11-architecture-diagrams` – Visual architecture references.
-- `12-practice-questions` – Exam preparation questions.
-- `13-exam-revision` – Revision notes and cheat sheets.
+| Topic | Read | Practice questions | Confidence (1–5) |
+|---|:---:|:---:|:---:|
+| Cloud fundamentals | [ ] | [ ] | — |
+| IAM and security | [ ] | [ ] | — |
+| Compute services | [ ] | [ ] | — |
+| Storage services | [ ] | [ ] | — |
+| Database services | [ ] | [ ] | — |
+| Networking and content delivery | [ ] | [ ] | — |
+| Application integration | [ ] | [ ] | — |
+| Monitoring and management | [ ] | [ ] | — |
+| Serverless architecture | [ ] | [ ] | — |
+| High availability and disaster recovery | [ ] | [ ] | — |
+| Cost optimization | [ ] | [ ] | — |
+| Hands-on labs | [ ] | [ ] | — |
+| Exam revision | [ ] | [ ] | — |
 
-## 🎓 Certification Goal
+## Using this repository
 
-**AWS Certified Solutions Architect – Associate (SAA-C03)**
+- Each topic README introduces the domain and links to focused service or concept notes.
+- Mermaid diagrams are source-controlled text; preview them in a GitHub Markdown renderer.
+- CLI snippets are for inspection unless explicitly described otherwise. No lab deploys infrastructure by default.
+- AWS pricing, service features, and exam content can change. Confirm time-sensitive details in current AWS documentation before acting.
+- Never paste account identifiers, credentials, personal data, or sensitive workload information into shared notes.
 
-Official certification information: https://aws.amazon.com/certification/certified-solutions-architect-associate/
+## Contributions
 
-## 🚀 Learning Approach
-
-Learn → Understand → Implement → Document → Revise
-
-This repository will continuously evolve as I explore AWS services and build practical cloud architecture solutions.
-
----
-
-**Learning in public. Building cloud skills one service at a time.**
+Keep explanations decision-oriented, link related topics instead of duplicating them, and include the trade-off behind each recommendation. Use original practice questions rather than reproducing copyrighted exam material.

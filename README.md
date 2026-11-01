@@ -10,7 +10,7 @@ Follow these 14 course modules in order. The linked guides are the study materia
 |---|---|
 | 1. [AWS Global Infrastructure](01-cloud-fundamentals/global-infrastructure.md) | Data centers, Regions, Availability Zones (AZs), Local Zones, Wavelength Zones, edge locations, Outposts, and AWS WAF (introduced here; studied further in Module 12). |
 | 2. [Securing AWS Accounts and Resources](02-iam-and-security/README.md) | IAM users, groups, roles, and policies; least privilege; AWS Organizations and service control policies; encryption and secrets. |
-| 3. [AWS Basic Networking Concepts](06-networking-and-content-delivery/README.md) | IP addressing and CIDR; VPCs and subnets; public/private routing; internet and NAT gateways; route tables; security groups and network ACLs. |
+| 3. [AWS Basic Networking Concepts](06-networking-and-content-delivery/README.md) | IPv4/IPv6, public and private IP addresses, CIDR and subnetting; VPCs and subnets; public/private routing; internet and NAT gateways; route tables; security groups and network ACLs. |
 | 4. [Compute in the Cloud](03-compute-services/README.md) | EC2 instance families and types, pricing options, attached storage, Auto Scaling fundamentals, and AWS Lambda. |
 | 5. [AWS Storage and Types](04-storage-services/README.md) | Block, object, and file storage; EBS, S3, EFS, and FSx; storage classes, hybrid storage, and data migration. |
 | 6. [AWS Database Services and Types](05-database-services/README.md) | Relational and non-relational databases, caching, analytics, backups, and database migration. |
